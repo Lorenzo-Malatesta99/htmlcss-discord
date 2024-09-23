@@ -18,12 +18,18 @@ section {
 .container {
   display: flex;
   flex-grow: 1;
+  max-width: 900px;
   align-items: center;
 }
 
 .row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  white-space: nowrap;
+}
+
+.special{
   flex-direction: column;
   text-align: center;
 }
@@ -42,7 +48,7 @@ section {
 }
 
 .col-16 {
-  width: calc(100% / 6);
+  width: ;
 }
 
 .titolo{
@@ -83,16 +89,20 @@ section {
   background-size: cover;
 }
 
-.padding-title{
-  padding-bottom: 30px;
+.margin-p{
+  margin: 30px;
+  
+  
 }
 .display-1 {
   max-width: 80%;
+  padding: 30px;
 }
 
 .download{
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 /* section 2 - 4 */
@@ -128,7 +138,7 @@ section {
 
 .buttons{
   border-radius: 20px;
-  padding: 8px;
+  padding: 10px;
 }
 
 .white{

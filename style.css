@@ -23,15 +23,12 @@ section {
 
 .row {
   display: flex;
-  height: 100%;
-  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .col {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   color: white;
   line-height: 30px;
 }
@@ -81,7 +78,7 @@ section {
 .section-1 {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 450px;
   background-image:url(./img/jumbo.png);
   background-size: cover;
 }
@@ -136,6 +133,11 @@ section {
 
 .white{
   background-color: white;
+}
+
+.black{
+  background-color: black;
+  color: white;
 }
 
 /* Debug
